@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Figma : SignUp</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .c1{
+      width: 100vw;
+      height: 100vh;
+      background: linear-gradient(to bottom right, rgb(83, 174, 235), rgb(183, 59, 233));
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .c2{
+      width: 80vw;
+      height: 85vh;
+      background: white;
+      border: white;
+      border-radius: 20px; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-left: 1%;
+    }
+    .image{
+      border-radius: 20px;
+      height: 65vh ;
+      width: 55vw;
+      display: none;
+    }
+
+    @media(min-width: 400px){
+      #mobile{
+        display: block;
+      }
+    }
+    center{
+      font-family: cursive;
+      padding: 20px;
+      font-weight: 1000;
+      font-size: 20px;
+    }
+    form{
+      padding-left: 5%;
+    }
+
+    label{
+      font-family: cursive;
+      padding: 20px;
+      font-weight:50;
+    }
+    input[type=text], select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: rgb(227, 254, 255);
+   }
+   input[type=password], select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: rgb(227, 254, 255);
+  }
+  .button{
+  background-color: #2c54da;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+  height:40px;
+  width: 80px;
+  }
+
+  .one{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5%;
+  }
+
+  p {
+   width:90%; 
+   text-align: center; 
+   border-bottom: 1px solid rgb(175, 173, 173); 
+   line-height: 0.1em;
+   margin: 20px 0 10px; 
+} 
+
+p span { 
+    background:#fff; 
+    padding: 0 10px; 
+    font-size: 15px;
+    font-family: cursive;
+    color: rgb(99, 114, 112);
+}
+
+strong{
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(42, 45, 248);
+  font-size: 15px;
+  text-align: center;
+}
+
+h5{
+  font-family: cursive;
+}
+a{
+  text-decoration: none;
+  color: #2c54da;
+}
+  </style>
+</head>
+<body>
+  <div class="c1">
+         <div class="c2">
+           <img  class="image" id="mobile" src="./WhatsApp Image 2021-08-20 at 8.32.46 PM.jpeg" />
+             <div class="one">
+               <center>Sign Up</center>
+               <form>
+                 <label>Name</label>
+                 <input type="text" ><br>
+                 <label>E-Mail</label>
+                 <input type="text" >
+                 <label>Password</label>
+                 <input type="password" >
+                 <label>Confirm Password</label>
+                 <input type="password" >
+                 <div class="middle">
+                   <button type="submit" class="button" >Sign Up</button></div>
+              </form>
+              <p><span>or continue with</span></p>
+              <br>
+              <div>
+                <br>
+                <img src="./Microsoft.png" height="25px" width="25px" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="./Facebook.jpg" height="25px" width="25px" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="./Google.png" height="25px" width="25px"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="./Linkedin.png" height="25px" width="25px"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <br>
+                <h5>Already have an account? <sh4><a href="./page2.html" /> Login</h4></h5>
+              </div>
+            </div>
+         </div>
+         
+
+  </div>
+</body>
+</html>
